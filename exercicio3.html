@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function combinacaoNumeros(num1, num2) {
+            let digito1 = Math.floor (num1 / 10)
+            let ultimo_digito = num2 % 10
+            let num3 = digito1 * 10 + ultimo_digito
+            return num3
+        }
+
+        let n3 = combinacaoNumeros(23,89)
+        alert("O N3 é: " + n3)
+    </script>
+</body>
+</html>

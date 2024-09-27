@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function receberValores(num1, num2, simbolo) {
+            if (simbolo == "+") {
+                let soma = num1 + num2
+                return soma 
+            } else if (simbolo == "-") {
+                subtracao = num1 - num2
+                return subtracao
+            } else if (simbolo == "/") {
+                divisao = num1 / num2
+                return divisao
+            } else if (simbolo == "*") {
+                multiplicacao = num1 * num2
+                return multiplicacao
+            }
+        }
+
+        let valor1 = receberValores(10, 20, "+")
+        let valor2 = receberValores(10, 20, "-")
+        let valor3 = receberValores(10, 20, "/")
+        let valor4 = receberValores(10, 20, "*")
+        alert("A soma é: " + valor1)
+        alert("A subtração é: " + valor2)
+        alert("A divisão é: " + valor3)
+        alert("A multiplicação é: " + valor4)
+
+    </script>
+</body>
+</html>

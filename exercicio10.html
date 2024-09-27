@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       function retornarReverso(numero) {
+        const string = Math.abs(numero).toString()
+        return parseInt(string.split('').reverse().join(''), 10)
+    }
+
+    const numero = 356
+    const reverso = retornarReverso(numero)
+    alert ("O reverso do número " + numero + " é: " + reverso)
+    </script>
+</body>
+</html>
